@@ -1,0 +1,61 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #754404;
+ }
+
+.box{
+    background-image: url(gitar.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    height: 700px;
+    width: 700px;
+    
+}
+
+.head {
+    text-align: center;
+    font-size: 2rem;
+    color: #DBEDF3;
+    font-family: cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+#Play{  
+    font-size: 1rem;
+    color: #852f2f;
+    font-family: cursive;
+    border-radius: 10px;;
+}
+
+#Play:hover{  
+    font-size: 1rem;
+    color: #582323;
+    background-color: rgb(172, 136, 89);
+    font-family: cursive;
+    border-radius: 10px;;
+}
+
+.all{
+    margin-top: 180px;
+    margin-right: 40px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px; 
+}
+
+.button{
+    background-color: rgb(223, 149, 60);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* om jeg vil adde en animasjon når knappen blir prest */
+/* .button.active {
+    background-color: #852f2f;
+  } */
